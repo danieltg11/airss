@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+body{
+    background-image: url(fundo2.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(1, 1, 1, 0.8);
+}
+.grosso{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    opacity: 0;
+
+}
+.upper-title{
+    background: transparent;
+    height: fit-content;
+    width: fit-content;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: auto;
+    border-radius: 200px;
+    backdrop-filter: blur(20px);
+    text-decoration: underline white;
+    
+}
+h1{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    opacity: 1.0;
+}
+.gas{
+    background: transparent;
+    text-align: center;
+    font: bold;
+    font-family: 'Rubik', sans-serif;
+    backdrop-filter: blur(20px);
+    color: white;
+    opacity: 1.0;
+    height: fit-content;
+    width: fit-content;
+    padding: 3%;
+    padding-top: 1%;
+    border: 2px solid white;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 75px;
+    vertical-align: middle;
+
+
+}
+.input-gas{
+    width: 400px;
+    height: 40px;
+    border-radius: 200px;
+    border: 2px solid white;
+    background: transparent;
+    font-size: 20px;
+    font-family:'Rubik', sans-serif; ;
+    padding-left: 20px;
+    color: white;
+}
+.botao-gas{
+    width: 420px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 200px;
+    background-color: #028CFF;
+    border: 2px solid #028CFF;
+    color: white;
+    font-size: 20px;
+    font-family:'Rubik', sans-serif;
+    transition: all 0.3s;
+    box-shadow: 50px;
+}
+.botao-gas:hover{
+    background-color: #000000;
+    border: 2px solid #000000;
+    color: white;
+
+}
+.input-gas::placeholder{
+    font-size: 20px;
+    font-family:'Rubik', sans-serif; ;
+    color: rgb(192, 192, 192);
+}
+h4{
+    color: red;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.voltar{
+    font-size: 20px;
+    font-family:'Rubik', sans-serif; ;
+    color: white;
+    background: transparent;
+    border: none;
+    backdrop-filter: blur(20px);
+    width: fit-content;
+
+}
+div#div-top{
+    display: flex;
+}
+.relatco{
+    background: transparent;
+    border: 2px solid white;
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-family:'Rubik', sans-serif; ;
+    color: white;
+    width: fit-content;
+
+
+
+}
+.relatco2{
+    border: none;
+}
+.relattxt{
+    border: none;
+}

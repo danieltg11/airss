@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+
+body{
+    background-image: url('fundo2.jpg');
+    background-position: top;
+    background-size: cover;
+    color: rgba(1, 1, 1, 0.8);
+    margin: 0;
+    padding: 0;
+    z-index:99;
+
+}
+.grosso{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    opacity: 1.0;
+
+}
+.upper-title{
+    background: transparent;
+    height: fit-content;
+    width: fit-content;
+}
+
+h1{
+    opacity: 0;
+}
+h2{
+    display: inline-block;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: gold;
+
+}
+h3{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    opacity: 1.0;
+}
+
+.titulo{
+    text-align: center;
+    backdrop-filter: blur(20px);
+    left: 0%;
+    top: 0%;
+    font-size: 20px;
+
+}
+
+.btn1{
+    width: 29%;
+    height: 130px;
+    border-radius: 40px;
+    border: 2px solid white;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    color: white;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    margin-top: 5%;
+    margin-right:2%;
+    margin-left: 2%;
+
+}
+.btn2{
+    width: 29%;
+    height: 130px;
+    border-radius: 40px;
+    margin-right: 25px;
+    margin-left: 25px;
+    border: 2px solid white;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    color: white;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-right:2%;
+    margin-left: 2%;
+}
+.btn3{
+    width: 29%;
+    height: 130px;
+    border-radius: 40px;
+    border: 2px solid white;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    color: white;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-right:2%;
+    margin-left: 2%;
+}
+.btn4{
+    width: 29%;
+    height: 130px;
+    border-radius: 40px;
+    border: 2px solid white;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    color: white;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-right:2%;
+    margin-left: 2%;
+}
+.btn5{
+    width: 29%;
+    height: 130px;
+
+    border-radius: 40px;
+    border: 2px solid white;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    color: white;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-right:2%;
+    margin-left: 2%;
+}
+.btn6{
+    width: 29%;
+    height: 130px;
+    border-radius: 40px;
+    border: 2px solid white;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    color: white;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right:2%;
+    margin-left: 2%;
+    margin-bottom: 15%;
+}
+.icone{
+    font-size: 30px;
+}
+.btn1:hover{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    transition: all 0.3s;
+}
+.btn2:hover{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    transition: all 0.3s;
+}
+.btn3:hover{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    transition: all 0.3s;
+}
+.btn4:hover{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    transition: all 0.3s;
+}
+.btn5:hover{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    transition: all 0.3s;
+}
+.btn6:hover{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    transition: all 0.3s;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Detector de Nível de Gás</title>
+</head>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<body>
+    <div id="div-top"><button class="voltar" onclick="voltar()"><i class='bx bx-arrow-back'></i>Voltar</button></div>
+    <div class="upper-title">
+        <h1>Detector do nível de gás</h1>
+    </div>
+    <div>
+        <div class="gas">
+            <h2>Qual o nível de gás que aparece em seu AirSitter?</h2>
+            <div>
+                <h3 class="nomegas">CO2 - (Dióxido de Carbono)</h3>
+                <input type="text" class="input-gas" placeholder="Insira o nível informado" id="co2">
+                <h3 class="nomegas">CO - (Monóxido de Carbono)</h3>
+                <input type="text" class="input-gas" placeholder="Insira o nível informado">
+            </div>
+            <button class="botao-gas" onclick="qntdgas()">Ver os níveis de gás</button>
+            <h4 id="h4"></h4>
+        </div>
+    </div>
+</body>
+<script src="code.js"></script>
+</html>
